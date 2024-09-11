@@ -10,13 +10,13 @@ body > header {
  /* Container holding the image and the text */
  .image-container {
     position: relative;
-    width: 33%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
 }
 
 /* The image */
 .image-container img {
     width: 100%; /* Make the image responsive */
-    height: auto;
+    height: 100%;
 }
 
 /* The text over the image */
@@ -32,3 +32,13 @@ body > header {
     padding: 10px; /* Optional padding around text */
 }
 
+#main-content {
+    grid-area: main;
+}
+
+#main-content {
+    display: grid;
+    grid-template-areas: 
+    "main";
+    grid-template-columns: 33fr 33fr 33fr;
+}
