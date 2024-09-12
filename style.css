@@ -52,13 +52,12 @@ header img {
 
 footer {
     text-align: center;
-    background-color: grey;
-    color: red;
+    background-color: rgb(191, 53, 53);
 }
 
-footer > nav > a{
-    color:green ; 
-    font-weight: bold; 
+footer a {
+    color: white;        /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;  
     font-size: 30px;
-    text-decoration: none;
 }
