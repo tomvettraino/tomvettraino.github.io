@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 0px;
     padding-top: 0%;
     margin:0px;
@@ -58,6 +58,24 @@ h2 {
 
 #links{
 grid-area: links;
+background-color: rgb(28, 49, 87);
+position: sticky;
+top: 0px;
+color: white;
+padding: 0px;
+box-sizing: border-box;
+height: 100vh;
+margin-top: -73px;
+}
+
+#links > h4 {
+text-decoration: underline;
+color: white;
+}
+
+#links a {
+    text-decoration: none;
+    color: white;
 }
 
 #content{
@@ -109,3 +127,11 @@ form {
 #news {
     text-align: center;
 } 
+#newsletter {
+    background-image: url('giphy.webp'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
