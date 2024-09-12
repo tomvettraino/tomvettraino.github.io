@@ -1,3 +1,16 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    padding-top: 0%;
+    margin:0px;
+    font-size: 1.5vw;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header h1{
     background-color:steelblue ;
     color: white;
@@ -8,11 +21,12 @@ header h1{
 }
 header img {
     position: absolute;
-    top: 21px;
+    top: 9px;
     left: 10px;
     display: flex;
     height: auto;
 }
+
 
  /* Container holding the image and the text */
  .image-container {
@@ -38,6 +52,25 @@ header img {
     background-color: rgba(0, 0, 0, 0.5); /* Optional background for better readability */
     padding: 10px; /* Optional padding around text */
 }
+h2 {
+    text-align: center;
+}
+
+#links{
+grid-area: links;
+}
+
+#content{
+    padding: 32px;
+    grid-area: content;
+}
+
+#all {
+    display: grid;
+    grid-template-areas: 
+    "links content";
+    grid-template-columns: 1fr 6fr;
+}
 
 #main-content {
     grid-area: main;
@@ -61,3 +94,18 @@ footer a {
     font-weight: bold;  
     font-size: 30px;
 }
+
+form {
+    text-align: center;
+    padding: 16px;
+}
+
+
+#charities {
+    text-align: center;
+    padding: 30px;
+}
+
+#news {
+    text-align: center;
+} 
