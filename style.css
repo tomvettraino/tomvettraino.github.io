@@ -1,4 +1,4 @@
-header {
+header h1{
     background-color:steelblue ;
     color: white;
     display: flex;
@@ -8,12 +8,11 @@ header {
 }
 header img {
     position: absolute;
-    top: 10px;
+    top: 21px;
     left: 10px;
+    display: flex;
     height: auto;
 }
-   
-
 
  /* Container holding the image and the text */
  .image-container {
@@ -51,3 +50,15 @@ header img {
     grid-template-columns: 33fr 33fr 33fr;
 }
 
+footer {
+    text-align: center;
+    background-color: grey;
+    color: red;
+}
+
+footer > nav > a{
+    color:green ; 
+    font-weight: bold; 
+    font-size: 30px;
+    text-decoration: none;
+}
