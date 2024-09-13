@@ -65,8 +65,9 @@ color: white;
 padding: 0px;
 box-sizing: border-box;
 height: 100vh;
-margin-top: -73px;
+margin-top: -58px;
 }
+
 
 #links > h4 {
 text-decoration: underline;
@@ -135,3 +136,13 @@ form {
     height: 100vh; /* Full viewport height */
     margin: 0;
 }
+
+.gallery-container img {
+    position: relative;
+    top: 20px;
+    left: 275px;
+    width: 800px; /* Adjust width */
+    height: 500px; /* Maintain aspect ratio */
+    border-radius: 20px;
+}
+
