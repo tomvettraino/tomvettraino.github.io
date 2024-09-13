@@ -6,6 +6,10 @@ body{
     margin:0px;
     font-size: 1.5vw;
 }
+
+#vid {
+    text-align: center;
+}
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +66,7 @@ background-color: rgb(28, 49, 87);
 position: sticky;
 top: 0px;
 color: white;
-padding: 0px;
+padding: 30px;
 box-sizing: border-box;
 height: 100vh;
 margin-top: -58px;
@@ -144,5 +148,6 @@ form {
     width: 800px; /* Adjust width */
     height: 500px; /* Maintain aspect ratio */
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
